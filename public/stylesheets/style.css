@@ -1,0 +1,33 @@
+body {
+  background-color: #fff1e5;
+}
+#titleLink {
+  color: #33302e;
+  text-align: center;
+  float: left;
+}
+#image {
+  width: 75%;
+  height: 75%;
+}
+#description {
+  color: #33302e;
+  font-size: 30px;
+}
+p {
+  font-size: 25px;
+  color: #33302e;
+}
+#query-list {
+  font-size: 25px;
+  color: #33302e;
+}
+#headlines-list {
+  font-size: 30px;
+  color: #33302e;
+}
+.o-teaser-collection__heading {
+  font-size: 40px;
+  color: #33302e;
+  text-align: center;
+}
