@@ -27,10 +27,10 @@ npm run test
 -[x] Be responsive
 -[x] Be accesible
 -[x] Built using Javascript and node.js
--[x] Not be reliant on client-side          frameworks
+-[x] Not be reliant on client-side frameworks
 -[x] Uses Origami Components
 -[x] Deployed on Heroku
--[x] Have a similar look and feel as        ft.com
+-[x] Have a similar look and feel as ft.com
 ```
 
 ### optional
