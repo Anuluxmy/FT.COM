@@ -1,6 +1,6 @@
 # FT Tech Test
 
-News Article App visit
+News Article App visit https://anuluxmy-ft-news.herokuapp.com/
 
 ## Installation and Usage
 
@@ -15,7 +15,7 @@ News Article App visit
 ### To run tests
 
 ```
-npm test
+npm run test
 ```
 
 ### Aim

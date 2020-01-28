@@ -9,6 +9,12 @@ const app = express();
 const port = process.env.PORT;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+// app.use(express.static("static"));
+app.use("/static", express.static(__dirname + "/static"));
+app.use(
+  "/service-worker.js",
+  express.static(__dirname + "/static/service-worker.js")
+);
 
 app.set("view engine", ".hbs");
 app.engine(".hbs", exphbs({ extname: ".hbs" }));
