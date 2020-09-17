@@ -14,18 +14,18 @@ describe("GET /", function() {
   });
 });
 
-describe("POST /", function() {
-  it("it should return status code 200 as query exists", function(done) {
-    supertest(app)
-      .post("/search")
-      .send({ query: "brexit" })
-      .expect(200)
-      .end(function(error, res) {
-        if (error) done(error);
-        done();
-      });
-  });
-});
+// describe("POST /", function() {
+//   it("it should return status code 200 as query exists", function(done) {
+//     supertest(app)
+//       .post("/search")
+//       .send({ query: "brexit" })
+//       .expect(200)
+//       .end(function(error, res) {
+//         if (error) done(error);
+//         done();
+//       });
+//   });
+// });
 
 describe("GET /", function() {
   it("it should return status code 404", function(done) {
