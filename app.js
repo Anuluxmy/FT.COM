@@ -36,7 +36,7 @@ app.post("/search", function(req, res) {
     url: "http://api.ft.com/content/search/v1",
     headers: {
       "Content-Type": "application/json",
-      "X-Api-Key": process.env.FT_APIKEY
+      "X-Api-Key": 'a214368bcv2389bjh29389'
     },
     body: JSON.stringify({
       queryString: `${query}`,

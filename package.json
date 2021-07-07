@@ -4,6 +4,7 @@
   "description": "\"Article from Financial Times\"",
   "main": "app.js",
   "scripts": {
+    "precommit": "secret-squirrel",
     "start": "node app.js",
     "lint": "eslint app.js",
     "test": "mocha"
@@ -18,7 +19,9 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
+    "@financial-times/secret-squirrel": "^2.18.1",
     "eslint": "^6.8.0",
+    "husky": "^7.0.1",
     "mocha": "^7.0.1",
     "supertest": "^4.0.2"
   }
