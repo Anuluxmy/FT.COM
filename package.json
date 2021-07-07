@@ -4,6 +4,7 @@
   "description": "\"Article from Financial Times\"",
   "main": "app.js",
   "scripts": {
+    "precommit": "secret-squirrel",
     "start": "node app.js",
     "lint": "eslint app.js",
     "test": "mocha"
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@financial-times/secret-squirrel": "^2.18.1",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
